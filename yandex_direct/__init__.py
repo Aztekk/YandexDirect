@@ -185,7 +185,8 @@ class YandexDirect(object):
         https://yandex.ru/dev/direct/doc/reports/fields-list.html/
         :type field_names: list of str
 
-        :param date_range_type: тип временного интерваоа
+        :param date_range_type: тип временного интервала. Возможные значения и подробности в справке:
+        https://yandex.ru/dev/direct/doc/reports/period.html
         :type date_range_type: str
 
         :param date_from: дата начала отчётного периода "YYYY-MM-DD"
